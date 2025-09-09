@@ -26,13 +26,15 @@ header {
 .firstbutton{
     color: white;
     background-color: rgba(71,173,241,255);
-    border-style: solid;
+    border-radius: 6px;
+    border-color: rgba(71,173,241,255) ;
 }
 
 .secondbutton {
     color: rgba(207,212,216,255);
     background-color: white;
-    border-style: solid;
+    border-radius: 6px;
+    border-color: rgba(207,212,216,255);
 }
 
 .tasks {
