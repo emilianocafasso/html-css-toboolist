@@ -26,11 +26,13 @@ header {
 .firstbutton{
     color: white;
     background-color: rgba(71,173,241,255);
+    border-style: solid;
 }
 
 .secondbutton {
     color: rgba(207,212,216,255);
     background-color: white;
+    border-style: solid;
 }
 
 .tasks {
@@ -38,9 +40,31 @@ header {
     color: rgba(68,72,81,255) ;
     margin-left: 7rem;
     margin-right: 7rem;
+    padding-left: 4rem;
 }
 h2 {
     margin: 0;
 }
-.newtasks {
+
+.circle {
+    display: inline-block;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    line-height: 1.1rem;
+    text-align: center;
+    font-size:0.7rem;
+    margin-right: 0.5rem;
+}
+.red {
+    border: 1.3px solid red;
+    color: red;
+}
+
+.green {
+    border: 1.3px solid lightgreen;
+    color: lightgreen;
+}
+.taskstext {
+    line-height: 1.8rem;
 }
