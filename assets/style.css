@@ -2,6 +2,45 @@ body {
     margin: 0;
     background-color: rgba(246,248,249,255)
 }
+
+header {
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
 .logotext {
     font-size: 50px;
+    margin: 0;
+}
+
+.buttons{
+    background-color: white;
+    padding-bottom: 0.3rem;
+    padding-left: 4rem;
+    padding-top: 0.5rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-bottom: 0.15rem;
+}
+
+.firstbutton{
+    color: white;
+    background-color: rgba(71,173,241,255);
+}
+
+.secondbutton {
+    color: rgba(207,212,216,255);
+    background-color: white;
+}
+
+.tasks {
+    background-color: white;
+    color: rgba(68,72,81,255) ;
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+h2 {
+    margin: 0;
+}
+.newtasks {
 }
